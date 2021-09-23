@@ -149,7 +149,8 @@
   letter-spacing: 0.03em;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -170,9 +171,14 @@
 
 /* footer */
 
+.lower-logo {
+  color: var(--primary-white-color);
+}
+
 .adress p {
   color: var(--primary-white-color);
 }
+
 .adress a {
   color: rgba(255, 255, 255, 0.6);
 }
