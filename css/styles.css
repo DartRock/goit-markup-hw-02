@@ -18,9 +18,9 @@
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 
-  font-family: Roboto;
+  font-family: Roboto, sans serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -91,6 +91,9 @@
 .hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+
+  cursor: pointer;
+
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -136,6 +139,9 @@
 .button {
   color: var(--title-text-color);
   background-color: var(--first-bg-color);
+
+  cursor: pointer;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
